@@ -1,0 +1,19 @@
+# Ignore configuration with sensitive data
+config.yaml
+
+# Ignore runtime data
+*.jsonl
+discord_message_map.json
+discord_message_queue.jsonl
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+
+# Ignore OS specific files
+.DS_Store

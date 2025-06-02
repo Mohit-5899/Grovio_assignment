@@ -1,0 +1,10 @@
+channel: discord
+debug_retrieval: false
+discord_token: YOUR_DISCORD_TOKEN_HERE
+max_risk: 0.1
+min_confidence: 0.85
+mode: passive
+model: gpt-4o-mini
+openai_api_key: YOUR_OPENAI_API_KEY_HERE
+semantic_weight: 0.7
+top_k_context: 4
